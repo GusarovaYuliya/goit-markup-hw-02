@@ -1,0 +1,62 @@
+root:--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+
+ul {
+  list-style: none;
+}
+.logo {
+  color:var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color:var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color:var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+
+.section-title {
+  color: #212121;
+}
+/* Feature */
+
+.fearure-list .title {
+    color: #212121;
+}
+/* Button */
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+   
+}
+
+/* Цвет основного текста #757575  */
+/*Вторичный цвет  текста #212121 */
+/*Белый #FFFFFF*/
+/*Акцент #2196F3*/
+/*Третичный цвет rgba(255, 255, 255, 0.6);*/
+
+/* Первичный цвет фона #E5E5E5; */
+/* Вторичный цвет фона#F5F4FA; */
+/*Цвет Героя и подвала #2F303A  */
+/* Цвет шапки #FFFFFF */;
