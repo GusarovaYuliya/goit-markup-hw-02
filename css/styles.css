@@ -2,6 +2,13 @@ root:--primary-text-color: #212121;
 --title-text-color: #757575;
 --accent-color: #2196F3;
 
+font-family: Roboto, sans-serif;
+
+/* Logo */
+.logo {
+  color: ;
+}
+
 ul {
   list-style: none;
 }
