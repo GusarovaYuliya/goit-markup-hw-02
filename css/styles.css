@@ -13,8 +13,14 @@ color: var(--primary-text-color);
 ul {
   list-style: none;
 }
-/* Hero */ 
-/* button */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo .span {
+  color: #000000;
+}
 
 /* Site nav */
 
