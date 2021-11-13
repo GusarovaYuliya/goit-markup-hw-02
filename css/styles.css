@@ -1,3 +1,97 @@
+:root {
+--primary-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--white-text-color: #FFFFFF;
+}
+
+body {
+background-color: #E5E5E5;
+color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+/* Hero */ 
+/* button */
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover ,
+.site-nav .link:focus {
+  color:var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav .contact {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+.title-text {
+  color:var(--title-text-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--white-text-color);
+}
+
+
+
+
+
+
+
+
+
+/* Осн текст 212121 
+Вторичный цвет 757575 
+Активный 2196F3 
+Лого 000000 ; 2196F3
+Футер лого 2196F3 ; FFFFFF
+Футер FFFFFF 
+Футер color: rgba(255, 255, 255, 0.6); тел и почта
+Цвет фона основной #E5E5E5;
+Вторичній цвет фона background: #F5F4FA; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME WORK 1
 root:--primary-text-color: #212121;
 --title-text-color: #757575;
 --accent-color: #2196F3;
@@ -5,7 +99,7 @@ root:--primary-text-color: #212121;
 font-family: Roboto, sans-serif;
 
 /* Logo */
-.logo {
+/* .logo {
   color: ;
 }
 
@@ -18,7 +112,7 @@ ul {
 
 /* Site nav */
 
-.site-nav .link {
+/* .site-nav .link {
   color:var(--primary-text-color);
 }
 
@@ -29,33 +123,33 @@ ul {
 
 .site-nav .link.current {
     color: var(--accent-color);
-}
+} */
 
 /* Hero */
 
-.hero-title {
+/* .hero-title {
   color: #ffffff;
-}
+} */
 
 /* Section */
 
-.section-title {
+/* .section-title {
   color: #212121;
-}
+} */
 /* Feature */
 
-.fearure-list .title {
-    color: #212121;
+/* .fearure-list .title {
+    color: #212121; */
 }
 /* Button */
-.button {
+/* .button {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: #2196F3; */
 }
 
 
    
-}
+
 
 /* Цвет основного текста #757575  */
 /*Вторичный цвет  текста #212121 */
