@@ -8,7 +8,11 @@
 body {
 background-color: #E5E5E5;
 color: var(--primary-text-color);
+
+font-family: Roboto, sans serif;
 }
+
+
 
 ul {
   list-style: none;
@@ -16,16 +20,30 @@ ul {
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway,cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo .span {
   color: #000000;
+
+}
+
+button {
+font-family: inherit;
 }
 
 /* Site nav */
 
 .site-nav .link {
-  color: var(--primary-text-color);
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover ,
@@ -37,29 +55,55 @@ ul {
   color: var(--accent-color);
 }
 
-.auth-nav .contact {
-  color: var(--title-text-color);
+/* Auth-nav link */
+
+.auth-nav .list.contact {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
 }
 
 /* Features */
 
 .feature-list .title {
   color: var(--primary-text-color);
+font-weight: bold;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
 }
 
 .title-text {
-  color:var(--title-text-color);
+color:var(--title-text-color);
+font-size: 16px;
+line-height: 1.9px;
+letter-spacing: 0.03em;
 }
 
 /* Button */
 .button {
-  color: var(--primary-text-color);
-  background-color: var(--white-text-color);
+color: var(--primary-text-color);
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6px;
+letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 
+.button:hover ,
+.button:focus {
+color: var(--white-text-color);
+background-color: var(--accent-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6px;
+letter-spacing: 0.03em;
 
-
+}
 
 
 
