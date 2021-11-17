@@ -26,24 +26,11 @@
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-
 .header {
-  background: #2F303A;
+  background: #FFFFFF;
 }
 
-.header-link {
+.link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -56,7 +43,7 @@ color: var(--header-text-color);
   color:var(--accent-first-color);
 }
 
-.header-mail {
+.header-mail .list {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -64,7 +51,7 @@ letter-spacing: 0.02em;
 color: var(--accent-first-color);
 }
 
-.header-tel {
+.header-tel .list {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -72,20 +59,9 @@ letter-spacing: 0.02em;
 color: var(--main-header-color);
 }
 
-/* ------------------Hero----------------------------  */
-
-.hero-list {
-  font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-color: var(--main-title-color);
-background-color: #2F303A;
-}
-
 .logo {
 color: var(--accent-first-color);
-font-family: Raleway,cursive;
+font-family: Raleway,sans-serif;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.88;
@@ -94,19 +70,48 @@ color: var(--second-text-color);
 text-decoration: none;
 }
 
+.logo .span {
+  color: #000000;
+}
+
 .logo-class {
   color: var(--accent-second-color);
-  font-family: Raleway,cursive;
+  font-family: Raleway,sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
+/* ------------------Hero----------------------------  */
+.hero {
+background: #2F303A;
+}
+
+.hero-list {
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+}
+
+.hero-btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--accent-third-color);
+background-color: var(--accent-first-color);
+}
+
+.hero-btn .current {
+  color: var(--main-btn-color);
+}
 
 .hero-btn:hover,
-.herov-btn:focus {
-  color: var(--accent-second-color);
+.hero-btn:focus {
+  color: var(--main-btn-color);
 }
 
 
@@ -128,56 +133,61 @@ color:var(--second-title-color);
 }
 
 /* ----------------WORK---------------- */
-
+.section {
+  background: #E5E5E5;
+}
 .about-title {
  font-weight: bold;
  font-size: 36px;
- line-height: 1/17;
+ line-height: 1.17;
  letter-spacing: 0.03em;
  color: var(--second-title-color);
 }
 
 /*------------------- COMMAND-------------------------- */
+.command-section{
+background: #F5F4FA;
+}
 
 .command-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--second-title-color);
 }
 
 .command-pre-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19x;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: var(--second-title-color);
 }
 
 .command-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--four-text-color);
 }
 
 /* -----------------ADRESS -----------------------*/
 
-logo .class {
+logo-list {
 color: var(--accent-first-color);
 font-weight: bold;
 font-size: 26px;
-line-height: 1.2px;
+line-height: 1.2;
 letter-spacing: 0.03em;
  }
 
 .logo-style .class{
-  color: var(--accent-third-color);
 font-weight: bold;
 font-size: 26px;
-line-height: 1.2px;
+line-height: 1.2;
 letter-spacing: 0.03em;
+color: var(--accent-third-color);
 }
 
 .contacts-details {
@@ -218,7 +228,7 @@ body {
 background-color: #E5E5E5;
 color: var(--primary-text-color);
 
-font-family: Roboto, sans serif;
+font-family: Roboto, sans-serif;
 }
 
 
@@ -229,7 +239,7 @@ ul {
 
 .logo {
   color: var(--accent-color);
-  font-family: Raleway,cursive;
+  font-family: Raleway,sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
@@ -239,7 +249,7 @@ ul {
 
 .logo-class {
   color: var(--black-text-color);
-  font-family: Raleway,cursive;
+  font-family: Raleway,sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
@@ -277,7 +287,7 @@ text-decoration: none;
 color: var(--title-text-color);
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14x;
+line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
@@ -288,14 +298,14 @@ text-decoration: none;
   color: var(--primary-text-color);
 font-weight: bold;
 font-size: 18px;
-line-height: 2px;
+line-height: 2;
 letter-spacing: 0.06em;
 }
 
 .title-text {
 color:var(--title-text-color);
 font-size: 16px;
-line-height: 1.9px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 }
 
@@ -305,7 +315,7 @@ color: var(--primary-text-color);
 background-color: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 text-decoration: none;
 }
@@ -317,14 +327,14 @@ color: var(--white-text-color);
 background-color: var(--accent-color);
 font-weight: 500;
 font-size: 16px;
-line-height: 1.6px;
+line-height: 1.6;
 letter-spacing: 0.03em;
 }
 .logo .class {
 color: var(--white-text-color);
 font-weight: bold;
 font-size: 26px;
-line-height: 1.2px;
+line-height: 1.2;
 letter-spacing: 0.03em;
  }
 
@@ -332,21 +342,21 @@ letter-spacing: 0.03em;
   color: var(--accent-color);
 font-weight: bold;
 font-size: 26px;
-line-height: 1.2px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 
 .adress-list .location {
 color: var(--white-text-color);
 font-size: 14px;
-line-height: 1.7px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 }
 
 .adress-list.contact {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
-line-height: 1.7px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 }
 
@@ -366,80 +376,22 @@ letter-spacing: 0.03em;
 
 
 
+/* 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px; */
 
 
 
 
 
 
-
-/* HOME WORK 1
-root:--primary-text-color: #212121;
---title-text-color: #757575;
---accent-color: #2196F3;
-
-font-family: Roboto, sans-serif;
-
-/* Logo */
-/* .logo {
-  color: ;
-}
-
-ul {
-  list-style: none;
-}
-.logo {
-  color:var(--accent-color);
-}
-
-/* Site nav */
-
-/* .site-nav .link {
-  color:var(--primary-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color:var(--accent-color);
-}
-
-.site-nav .link.current {
-    color: var(--accent-color);
-} */
-
-/* Hero */
-
-/* .hero-title {
-  color: #ffffff;
-} */
-
-/* Section */
-
-/* .section-title {
-  color: #212121;
-} */
-/* Feature */
-
-/* .fearure-list .title {
-    color: #212121; */
-}
-/* Button */
-/* .button {
-    color: #FFFFFF;
-    background-color: #2196F3; */
-}
-
-
-   
-
-
-/* Цвет основного текста #757575  */
-/*Вторичный цвет  текста #212121 */
-/*Белый #FFFFFF*/
-/*Акцент #2196F3*/
-/*Третичный цвет rgba(255, 255, 255, 0.6);*/
-
-/* Первичный цвет фона #E5E5E5; */
-/* Вторичный цвет фона#F5F4FA; */
-/*Цвет Героя и подвала #2F303A  */
-/* Цвет шапки #FFFFFF */;
+/;
