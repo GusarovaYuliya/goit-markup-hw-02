@@ -1,3 +1,210 @@
+/* Студия */
+
+:root {
+--main-title-color:#FFFFFF;
+--second-title-color:#212121;
+--main-header-color:#757575;
+--second-text-color: #FFFFFF;
+--third-text-color: rgba(255, 255, 255, 0.6);
+--four-text-color:#757575;
+--accent-first-color:#2196F3;
+--accent-second-color:#000000;
+--accent-third-color: #FFFFFF;
+--main-btn-color:#FFFFFF;
+--header-text-color:#212121;
+
+ body {
+  font-family: "Roboto", sans-serif;
+} 
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.header {
+  background: #2F303A;
+}
+
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--header-text-color);
+}
+
+.site-nav .link:hover ,
+.site-nav .link:focus {
+  color:var(--accent-first-color);
+}
+
+.header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--accent-first-color);
+}
+
+.header-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-header-color);
+}
+
+/* ------------------Hero----------------------------  */
+
+.hero-list {
+  font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+background-color: #2F303A;
+}
+
+.logo {
+color: var(--accent-first-color);
+font-family: Raleway,cursive;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+color: var(--second-text-color);
+text-decoration: none;
+}
+
+.logo-class {
+  color: var(--accent-second-color);
+  font-family: Raleway,cursive;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.hero-btn:hover,
+.herov-btn:focus {
+  color: var(--accent-second-color);
+}
+
+
+/* --------------ADVANTAGE --------------------*/
+
+.advantage-pre-title {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color:var(--second-title-color);
+}
+
+.advantage-after-title {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--four-text-color);
+}
+
+/* ----------------WORK---------------- */
+
+.about-title {
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 1/17;
+ letter-spacing: 0.03em;
+ color: var(--second-title-color);
+}
+
+/*------------------- COMMAND-------------------------- */
+
+.command-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.command-pre-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19x;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--four-text-color);
+}
+
+/* -----------------ADRESS -----------------------*/
+
+logo .class {
+color: var(--accent-first-color);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2px;
+letter-spacing: 0.03em;
+ }
+
+.logo-style .class{
+  color: var(--accent-third-color);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2px;
+letter-spacing: 0.03em;
+}
+
+.contacts-details {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-btn-color);
+}
+
+.contacts-item {
+  font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--third-text-color);
+}
+
+
+
+
+
+
+
+
+
+/* --------------------Портфолио ----------------------------*/
+
+
+
 :root {
 --primary-text-color: #212121;
 --title-text-color: #757575;
@@ -142,15 +349,6 @@ line-height: 21.7px;
 letter-spacing: 0.03em;
 }
 
-/* Осн текст 212121 
-Вторичный цвет 757575 
-Активный 2196F3 
-Лого 000000 ; 2196F3
-Футер лого 2196F3 ; FFFFFF
-Футер FFFFFF 
-Футер color: rgba(255, 255, 255, 0.6); тел и почта
-Цвет фона основной #E5E5E5;
-Вторичній цвет фона background: #F5F4FA; */
 
 
 
