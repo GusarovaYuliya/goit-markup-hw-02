@@ -12,6 +12,7 @@
 --accent-third-color: #FFFFFF;
 --main-btn-color:#FFFFFF;
 --header-text-color:#212121;
+}
 
  body {
   font-family: "Roboto", sans-serif;
@@ -345,7 +346,7 @@ letter-spacing: 0.03em;
 .adress-list.contact {
 color: rgba(255, 255, 255, 0.6);
 font-size: 14px;
-line-height: 21.7px;
+line-height: 1.7px;
 letter-spacing: 0.03em;
 }
 
