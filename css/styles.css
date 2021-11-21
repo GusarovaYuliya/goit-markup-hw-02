@@ -1,22 +1,26 @@
 /* Студия */
 
 :root {
---main-title-color:#FFFFFF;
---second-title-color:#212121;
---main-header-color:#757575;
---second-text-color: #FFFFFF;
---third-text-color: rgba(255, 255, 255, 0.6);
---four-text-color:#757575;
---accent-first-color:#2196F3;
---accent-second-color:#000000;
---accent-third-color: #FFFFFF;
---main-btn-color:#FFFFFF;
---header-text-color:#212121;
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-header-color: #757575;
+  --second-text-color: #ffffff;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --four-text-color: #757575;
+  --accent-first-color: #2196f3;
+  --accent-second-color: #000000;
+  --accent-third-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --header-text-color: #212121;
 }
 
- body {
-  font-family: "Roboto", sans-serif;
-} 
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 .list {
   list-style: none;
@@ -27,56 +31,55 @@
 }
 
 .header {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--header-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-text-color);
 }
 
-.link-current {
- font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--accent-first-color); 
+.header-link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-first-color);
 }
-.site-nav .link:hover ,
+.site-nav .link:hover,
 .site-nav .link:focus {
-  color:var(--accent-first-color);
+  color: var(--accent-first-color);
 }
 
-.list .header-mail  {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--accent-first-color);
+.header-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-first-color);
 }
 
-.list .header-tel  {
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--main-header-color);
+.header-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-header-color);
 }
 
 .logo {
-color: var(--accent-first-color);
-font-family: Raleway,sans-serif;
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-color: var(--second-text-color);
-text-decoration: none;
+  color: var(--accent-first-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
 }
 
 .logo .span {
@@ -85,36 +88,35 @@ text-decoration: none;
 
 .logo-class {
   color: var(--accent-second-color);
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
 }
 /* ------------------Hero----------------------------  */
 .hero {
-background: #2F303A;
+  background: #2f303a;
 }
 
 .hero-list {
   font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-color: var(--main-title-color);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
 }
 
 .hero-btn {
-font-weight: bold;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-color: var(--accent-third-color);
-background-color: var(--accent-first-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--accent-third-color);
+  background-color: var(--accent-first-color);
 }
 
-.hero-btn .current {
+.header-list .current {
   color: var(--main-btn-color);
 }
 
@@ -123,15 +125,14 @@ background-color: var(--accent-first-color);
   color: var(--main-btn-color);
 }
 
-
 /* --------------ADVANTAGE --------------------*/
 
 .advantage-pre-title {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-color:var(--second-title-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
 }
 
 .advantage-after-title {
@@ -143,19 +144,19 @@ color:var(--second-title-color);
 
 /* ----------------WORK---------------- */
 .section {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 .about-title {
- font-weight: bold;
- font-size: 36px;
- line-height: 1.17;
- letter-spacing: 0.03em;
- color: var(--second-title-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
 }
 
 /*------------------- COMMAND-------------------------- */
-.command-section{
-background: #F5F4FA;
+.command-section {
+  background: #f5f4fa;
 }
 
 .command-title {
@@ -183,20 +184,20 @@ background: #F5F4FA;
 
 /* -----------------ADRESS -----------------------*/
 
-logo-list {
-color: var(--accent-first-color);
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
- }
+.logo-list {
+  color: var(--accent-first-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
 
-.logo-list .logo-class{
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
-color: var(--accent-third-color);
+.logo-class {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-third-color);
 }
 
 .contacts-link-item {
@@ -215,34 +216,22 @@ color: var(--accent-third-color);
   color: var(--main-btn-color);
 }
 
-
-
-
-
-
-
-
-
 /* --------------------Портфолио ----------------------------*/
 
-
-
 :root {
---primary-text-color: #212121;
---title-text-color: #757575;
---accent-color: #2196F3;
---white-text-color: #FFFFFF;
---black-text-color:#000000;
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --black-text-color: #000000;
 }
 
 body {
-background-color: #E5E5E5;
-color: var(--primary-text-color);
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
 
-font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
-
-
 
 ul {
   list-style: none;
@@ -250,7 +239,7 @@ ul {
 
 .logo {
   color: var(--accent-color);
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
@@ -260,7 +249,7 @@ ul {
 
 .logo-class {
   color: var(--black-text-color);
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
   font-size: 26px;
@@ -269,24 +258,24 @@ ul {
 }
 
 button {
-font-family: inherit;
+  font-family: inherit;
 }
 
 /* Site nav */
 
 .site-nav .link {
-color: var(--primary-text-color);
-font-weight: 500;
-font-size: 14px;
-font-style: normal;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.site-nav .link:hover ,
+.site-nav .link:hover,
 .site-nav .link:focus {
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
@@ -295,115 +284,97 @@ text-decoration: none;
 
 /* Auth-nav link */
 
-.auth-nav .list.contact {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
+.contact {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* -----------LIST----------- */
 
-.list .link {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
-color: var(--black-text-color);
+.button-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--black-text-color);
 }
-
 
 /* Features */
 
 .feature-list .title {
   color: var(--primary-text-color);
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .title-text {
-color:var(--title-text-color);
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
 .button {
-color: var(--primary-text-color);
-background-color: #F5F4FA;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-text-decoration: none;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-
-.button:hover ,
+.button:hover,
 .button:focus {
-color: var(--white-text-color);
-background-color: var(--accent-color);
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .logo .class {
-color: var(--white-text-color);
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
- }
+  color: var(--white-text-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
 
-.logo-style .class{
+.logo-style .class {
   color: var(--accent-color);
   font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .adress-list .location {
-color: var(--white-text-color);
-font-style: normal;
-font-size: 14px;
-font-style: normal;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  color: var(--white-text-color);
+  font-style: normal;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .adress-list .contact {
-color: rgba(255, 255, 255, 0.6);
-font-size: 14px;
-font-style: normal;
-line-height: 1.7;
-letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 .visually-hidden {
@@ -417,10 +388,3 @@ letter-spacing: 0.03em;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px; */
-
-
-
-
-
-
-/;
