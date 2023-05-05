@@ -26,17 +26,17 @@ button {
 /* Студия */
 
 :root {
-  --main-title-color: #ffffff;
-  --second-title-color: #212121;
-  --main-header-color: #757575;
+  --main-title-color: #FFFFFF;
+  --second-title-color: #2E2F42;
+  --main-header-color: #434455;
   --second-text-color: #ffffff;
   --third-text-color: rgba(255, 255, 255, 0.6);
-  --four-text-color: #757575;
-  --accent-first-color: #2196f3;
-  --accent-second-color: #000000;
-  --accent-third-color: #ffffff;
+  --four-text-color: #434455;
+  --accent-first-color: #4D5AE5;
+  --accent-second-color: #2E2F42;
+  --accent-third-color: #FFFFFF;
   --main-btn-color: #ffffff;
-  --header-text-color: #212121;
+  --footer-text:#F4F4FD;
 }
 
 ul {
@@ -56,23 +56,23 @@ body {
 }
 
 .header {
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 .link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--second-title-color);
 }
 
 .header-link-current {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-first-color);
+  color: var(--second-title-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -82,17 +82,17 @@ body {
 .header-mail {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--accent-first-color);
+  color: var(--main-header-color);
 }
 
 .header-tel {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-header-color);
 }
@@ -100,11 +100,10 @@ body {
 .logo {
   color: var(--accent-first-color);
   font-family: Raleway, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--second-text-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .logo .span {
@@ -116,27 +115,35 @@ body {
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.16;
+}
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent-first-color);
+}
+.list .link:hover,
+.list .link:focus {
+  color: var(--accent-first-color);
 }
 /* ------------------Hero----------------------------  */
 .hero {
-  background: #2f303a;
+  background: #2E2F42;
 }
 
 .hero-list {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 
 .hero-btn {
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--accent-third-color);
   background-color: var(--accent-first-color);
 }
@@ -153,7 +160,7 @@ body {
 /* --------------ADVANTAGE --------------------*/
 
 .advantage-pre-title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -161,85 +168,79 @@ body {
 }
 
 .advantage-after-title {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--four-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-header-color);
 }
 
 /* ----------------WORK---------------- */
 .section {
-  background: #e5e5e5;
+  background: #E5E5E5;
 }
 .about-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
 
 /*------------------- COMMAND-------------------------- */
 .command-section {
-  background: #f5f4fa;
+  background: #F4F4FD;
 }
 
 .command-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
 
 .command-pre-title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
 
 .command-text {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--four-text-color);
 }
 
-/* -----------------ADRESS -----------------------*/
+/* -----------------Footer -----------------------*/
 
 .logo-list {
   color: var(--accent-first-color);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
 .logo-class {
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--accent-third-color);
+  color: var(--footer-text);
+}
+.footer-page {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text);
 }
 
-.contacts-link-item {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--third-text-color);
-}
-
-.contacts-link-list {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--main-btn-color);
-}
 
 /* --------------------Портфолио ----------------------------*/
 
