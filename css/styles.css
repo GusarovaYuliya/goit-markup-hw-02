@@ -246,10 +246,10 @@ body {
 
 :root {
   --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196f3;
+  --title-text-color: #434455;
+  --accent-color: #4D5AE5;
   --white-text-color: #ffffff;
-  --black-text-color: #000000;
+  --black-text-color: #2E2F42;
 }
 
 body {
@@ -267,9 +267,9 @@ ul {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   text-decoration: none;
 }
 
@@ -277,9 +277,9 @@ ul {
   color: var(--black-text-color);
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   text-decoration: none;
 }
 
@@ -292,9 +292,9 @@ button {
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
-  line-height: 1.14;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -312,9 +312,9 @@ button {
 
 .contact {
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -334,83 +334,44 @@ button {
 
 .feature-list .title {
   color: var(--primary-text-color);
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .title-text {
   color: var(--title-text-color);
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+ /* Footer */
 
-/* Button */
-.button {
-  color: var(--primary-text-color);
-  background-color: #f5f4fa;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--white-text-color);
-  background-color: var(--accent-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.logo .class {
-  color: var(--white-text-color);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.logo-style .class {
+.logo-class .logo {
   color: var(--accent-color);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
-.adress-list .location {
-  color: var(--white-text-color);
+.logo-style .logo {
+  color: #F4F4FD;
   font-style: normal;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.7;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
-.adress-list .contact {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
+.page-text {
   font-style: normal;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
-/* 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px; */
